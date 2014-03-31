@@ -600,14 +600,14 @@
 
 ## Blocks
 
-  - Use braces with all multi-line blocks.
+  - Use only multi-line blocks with braces.
 
     ```javascript
     // bad
     if (test)
       return false;
 
-    // good
+    // bad
     if (test) return false;
 
     // good
